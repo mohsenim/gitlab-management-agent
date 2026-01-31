@@ -62,6 +62,9 @@ A Gradio space on Hugging Face supports MCP natively. I have rewritten the agent
 3. Define the following Secrets in your Space settings:
    - `GITLAB_TOKEN`: Your GitLab access token.
    - `GITLAB_PROJECT`: The default GitLab project (optional).
+![agent-page](./fig/agent.png)
+
+
 4. Ensure the Space is public or accessible to your client ([here](https://huggingface.co/settings/mcp)).
 
 Now you can configure your client to access the MCP server. To add the server to Cursor, add the following to your MCP settings:
