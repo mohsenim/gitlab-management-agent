@@ -153,8 +153,4 @@ def get_issue(issue_id: int, project_name: str = None) -> str:
         return f"Error: {str(e)}"
 
 if __name__ == "__main__":
-    mcp.run(
-        transport="sse", 
-        host="0.0.0.0", 
-        port=7860
-    )
+    mcp.run()
